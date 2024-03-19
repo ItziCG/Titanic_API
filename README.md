@@ -20,6 +20,6 @@ Organización de las carpetas
     │   │   ├── best_model.pkl   <-mejor modelo entrenado listo para poner en producción
     │   │
     │   ├── notebooks        
-    │   │    └── titanic.ipynb (Memoría del proyecto-> EDA, pasos explicados, búsqueda del mejor modelo
+    │   │    └── titanic.ipynb (Memoría del proyecto-> EDA, pasos explicados, búsqueda del mejor modelo)
 
 --------
