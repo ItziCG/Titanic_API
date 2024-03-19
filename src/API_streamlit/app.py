@@ -4,7 +4,7 @@ import joblib
 from PIL import Image
 
 
-modelo = joblib.load('C:\\Users\\rauln\\Documents\\GitHub\\Titanic_API\\src\\model\\best_model')
+modelo = joblib.load('')
 
 def predecir_sobrevivencia(datos_pasajero):
     prediccion = modelo.predict(datos_pasajero)
