@@ -15,7 +15,7 @@ def main():
 
     st.markdown( "<h1 style='color:black;'>¿ Sobrevivirás al Titanic ?</h1>",unsafe_allow_html=True)
 
-    image = Image.open('../titanic.jpg')  # Ajusta el nombre del archivo a tu imagen
+    image = Image.open('titanic.jpg')  # Ajusta el nombre del archivo a tu imagen
     
     st.image(image, use_column_width=True)
 
