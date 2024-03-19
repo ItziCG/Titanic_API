@@ -4,7 +4,7 @@ import joblib
 from PIL import Image
 
 
-modelo = joblib.load('/Users/uxue/Desktop/DS_PT_09_2023/Machine_Learning/1-Supervisado/4-Ejercicio/best_model.pkl')
+modelo = joblib.load('../src/model/best_model.pkl')
 
 def predecir_sobrevivencia(datos_pasajero):
     prediccion = modelo.predict(datos_pasajero)
