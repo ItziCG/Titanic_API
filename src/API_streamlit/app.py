@@ -4,7 +4,7 @@ import joblib
 from PIL import Image
 
 
-modelo = joblib.load('best_model.pkl')
+modelo = joblib.load('../model/best_model.pkl')
 
 def predecir_sobrevivencia(datos_pasajero):
     prediccion = modelo.predict(datos_pasajero)
