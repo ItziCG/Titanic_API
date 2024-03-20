@@ -4,7 +4,7 @@ Proyecto de predicción de superviviencia en el Titanic, en una app creada y des
 Organización de las carpetas
 ------------
 
-    ├── LICENSE
+    
     ├── README.md          <- presentación y estructura del proyecto para los usuarios.
     │
     ├── requirements.txt   <- Librerías y paquetes utilizados en el proyecto
@@ -22,4 +22,4 @@ Organización de las carpetas
     │   ├── notebooks        
     │   │    └── titanic.ipynb (Memoría del proyecto-> EDA, pasos explicados, búsqueda del mejor modelo)
 
---------
+------------
