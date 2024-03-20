@@ -4,7 +4,7 @@ import joblib
 from PIL import Image
 
 
-modelo = joblib.load('../model/best_model.pkl')
+modelo = joblib.load('src/model/best_model.pkl')
 
 def predecir_sobrevivencia(datos_pasajero):
     prediccion = modelo.predict(datos_pasajero)
@@ -15,7 +15,7 @@ def main():
 
     st.markdown( "<h1 style='color:black;'>¿ Sobrevivirás al Titanic ?</h1>",unsafe_allow_html=True)
 
-    image = Image.open('titanic.jpg') 
+    image = Image.open('src/API_streamlit/titanic.jpg') 
     
     st.image(image, use_column_width=True)
 
